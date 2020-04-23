@@ -3,6 +3,7 @@
     "@babel/preset-env"
   ],
   "plugins": [
-    "transform-object-rest-spread"
+    "transform-object-rest-spread", "transform-class-properties",
+    "@babel/proposal-class-properties", "@babel/plugin-proposal-object-rest-spread"
   ]
 }
