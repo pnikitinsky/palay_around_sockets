@@ -5,8 +5,9 @@
   "main": "./index.js",
   "scripts": {
     "test": "jest",
+    "lint": "eslint ./",
     "start": "nodemon --exec babel-node index.js",
-    "start:dev": "webpack-dev-server",
+    "start:dev": "webpack-dev-server --host 0.0.0.0",
     "watch": "webpack --watch",
     "build": "webpack"
   },

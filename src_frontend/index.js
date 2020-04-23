@@ -49,7 +49,6 @@ class ChatScreen {
   }
 }
 
-
 document.addEventListener("DOMContentLoaded", (event) => {
   const chat = new ChatScreen();
   chat.setUpListeners();
